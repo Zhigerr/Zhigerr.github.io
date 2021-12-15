@@ -1,0 +1,213 @@
+.top{
+
+    margin: 0px 100px 0px 0px;
+    font-size: xx-large;
+    display: flex;
+    width: 1400px;
+
+}
+.ttt{
+    display: flex;
+    margin-left: 150px;
+}
+label.nav{
+    display: none;
+}
+.top img{
+    margin-left: 100px;
+}
+.top a{
+    text-decoration-line: none;
+    color: black;
+    text-shadow: 2px 2px 20px black;
+}
+.top a:hover{
+    color: gold;
+}
+.top div{
+    margin-left: 190px;
+    padding: 50px 0px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Rampart One', cursive;
+    font-weight: 900;
+}
+.pizza{ 
+    width: 1450px;
+    margin: 0px 100px 0px 0px;
+    font-size: xx-large;
+    text-align: center;
+    background-image: url(italy);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+.pizzas button{
+    margin-left: 30px;
+}
+.pizzas{
+    display: flex;
+    color: white;
+    text-shadow: 4px 4px 10px black;
+}
+.pizzas div{
+    margin-left: 50px;
+}
+.pizzas2 div{
+    width: 350px;
+    margin-left: 50px;
+}
+.pizzas2 button{
+    margin-left: 30px;
+    } 
+
+    .pizzas2{
+        display: flex;
+        padding: 100px 350px;
+        color: white;
+        text-shadow: 6px 6px 10px black;
+    }
+    .pizzas2 h4{
+        text-align: center;
+    }
+    .burger{ 
+
+        width: 1450px;
+       margin-top: 70px;
+        font-size: xx-large;
+        text-align: center;
+        margin-top: 0px;background-image: url(usa);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .gippo , .sushi1{
+        margin-top: 40px;
+        margin-left: 120px;
+        display: flex;
+    }
+    .gippo2{
+        margin-top: 100px;
+        margin-left: 120px;
+        display: flex;
+    }
+    .sushi{ 
+
+        width: 1450px;
+       margin-top: 70px;
+        font-size: xx-large;
+        text-align: center;
+        margin-top: 0px;background-image: url(japan);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .avo , .lind , .calif , .kani , .crev , .fila{
+        color: white;
+    }
+
+    .sushi1 , .sushi2{
+        display: flex;
+    }
+    .sushi1 div{
+        margin-left: 40px;
+    }
+    .sushi2 div{
+        margin-left: 40px;
+    }
+    
+    .sushi2{
+        margin-left: 120px;
+    }
+
+    .last{
+        display: flex;
+        margin-left: 370px;
+        width: 700px;
+        background-color: white;
+    }
+    .imag{
+        margin-left: 90px;
+    }
+    
+    .imag #fc{
+        margin-left:-6px;
+    }
+    .ord{
+        margin-left: 20px;
+    }
+    #toggle{
+    display: none;
+    }
+    label{
+        color: white;
+    }
+
+    @media(max-width:600px){
+        .pizzas{
+            margin-right: 1100px;
+            display: inline-block;
+            justify-content: center;
+            align-items: center;     
+        }
+        .pizzas2{
+            margin-left: -1090px;
+            display: inline-block;
+            
+        }
+        .gippo{
+            display: inline-block;
+            margin-left: -1030px;   
+        }
+        .gippo2{
+            display: block;
+            margin-left: 50px;
+        }
+
+        .sushi1{
+            display: block;
+            margin-left: -1100px;
+    }
+    .sushi2{
+        display: block;
+        margin-left: -1100px;
+}
+.pizza h1{
+    justify-content: center;
+    margin-right: 1050px;
+}
+.burger h1{
+    justify-content: center;
+    margin-right: 1040px;
+}
+.sushi h1{
+    justify-content: center;
+    margin-right: 
+    1040px;
+}
+.last{
+    margin-left: -320px;
+    float: left;
+}
+label{
+    display: block;
+    cursor: pointer;
+    color: black;
+}
+.top div{
+    margin-right: 290px;
+    text-align: center;
+}
+.ttt{
+ display: block;
+}
+.top{
+    display: block;
+    margin-left: -570px;
+}
+
+#toggle:checked + .top{
+    display: none;
+}
+
+}
+
+
