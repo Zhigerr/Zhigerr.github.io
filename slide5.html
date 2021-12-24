@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<body style="margin: 0 auto; background-image: url(demo.jpg); background-size: cover;" >
+    <div style="width: 1200px; "><p style="background-color: white; height: 50px; text-align: center; font-size: xx-large;">This is our site, you can go there just by clicking a "Like" button! Enjoy serfing it :)</p>
+    </div>
+    <div>
+        <a href="https://umid200103248.github.io/"><img id="lik" onmouseover="change(this)" style="position:relative; opacity: 1;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Facebook_Thumb_icon.svg/1200px-Facebook_Thumb_icon.svg.png" width="300px" alt=""></a>
+    </div>
+
+    <script>
+function change(element){
+    $("#lik").animate({opacity: '0'}, "slow");
+    $("#lik").animate({opacity: '0.2'}, "slow");
+    $("#lik").animate({opacity: '0.5'}, "slow");
+    $("#lik").animate({opacity: '0.8'}, "slow");
+    $("#lik").animate({opacity: '1'}, "slow");
+    $("#lik").animate({opacity: '0.5',left:"+=100px"}, "slow");
+    $("#lik").animate({opacity: '0.8',left:"-=100px"}, "slow");}
+    </script>
+ 
+    
+</body>
+</html>
